@@ -124,7 +124,10 @@ const babyGirl = new Person('female', 'US', '49cm', 'black');
 console.log(babyBoy)
 console.log(babyBoy.drink('milk'))
 babyBoy.age = 3;
-babyBoy.run(100, 'ft')
+babyBoy.run(100, 'foot')
 console.log(babyGirl);
 babyGirl.age = 5;
-babyGirl.eat('meat');
+babyGirl.eat('milk');
+
+
+
